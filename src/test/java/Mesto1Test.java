@@ -2,15 +2,13 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
-import jdk.jfr.Description;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class MestoTest {
+public class Mesto1Test {
 
     String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzMzZDA0OWQzYjg2YTAwM2Q2N2QyYjkiLCJpYXQiOjE2NjkzNzQyNTksImV4cCI6MTY2OTk3OTA1OX0.WpS9hxNwt-JQCldFmoGXxUpOkoBJGRtV5GJZcVVvuh4";
 
